@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IG Hashtag Search</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="IG Hashtga search is a site designed for instagrammers to search hashtags and get the results. Based on the number of posts, they can select a specific hashtag and copy it. The site also supports bulk copy of hashtags"
+    />
+    <meta name="keywords" content="IG, instagram, ig hashtags, hashtag generator, Instagram hashtag generator, digital media hashtags" />
+
+    <link rel="icon" type="image/x-icon" href="instagram.png" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="center-align">
+        <h3 class="text-light">With simple steps, find out the related hashtags, number of posts and copy them quickly</h3>
+        <i><u class="text-light">Designed for digital content creators with love</u></i>
+        <br />
+        <form>
+          <div class="row col-12 form-group">
+            <div class="col-8">
+              <input type="text" class="form-control" id="search" placeholder="Search for a topic" oninput="btnCheck()" />
+            </div>
+            <div class="col-4 submit-btn">
+              <button type="submit" class="btn btn-dark text-light mb-3" id="search-btn" disabled="" onclick="searchEvent(event)">Search</button>
+            </div>
+          </div>
+        </form>
+        <div class="row" id="buttons"></div>
+        <div class="row" id="content"></div>
+      </div>
+      <div id="toast-container"></div>
+    </div>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/dom.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

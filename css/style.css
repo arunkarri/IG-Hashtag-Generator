@@ -1,0 +1,28 @@
+.center-align {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+body {
+  background-image: linear-gradient(90deg, #8939ac 0%, #fcac44 100%);
+}
+.copy-icon {
+  cursor: pointer;
+}
+
+.table-div{
+  height: 30rem;
+  overflow: scroll;
+}
+
+.toast {
+  top: 0;
+  position: absolute;
+  right: 10px;
+}
+.badge{
+  cursor: pointer;
+  margin: 3px;
+}
