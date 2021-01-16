@@ -91,7 +91,7 @@ setAttribute(tableDiv, 'class', 'table-div');
 appendChild(contentRow, tableDiv);
 
 let table = createElement('table');
-setAttribute(table, 'class', 'table text-light');
+setAttribute(table, 'class', 'table table-responsive text-light');
 appendChild(tableDiv, table);
 
 let thead = createElement('thead');
